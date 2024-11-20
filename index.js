@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:5173"], // Allow multiple origins
+  origin: ["http://localhost:3000", "http://localhost:5173","https://bookstore-lac-iota.vercel.app"], // Allow multiple origins
   credentials: true
 }));
 
