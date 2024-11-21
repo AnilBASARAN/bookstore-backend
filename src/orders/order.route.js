@@ -1,7 +1,6 @@
 const express = require("express");
-const Order = require("./order.model")
-const { postAnOrder,getOrderByEmail } = require("./order.controller");
 
+const { postAnOrder,getOrderByEmail } = require("./order.controller");
 const router = express.Router();
 
 // create order endpoint

@@ -1,5 +1,5 @@
 const express = require('express');
-const Book = require('./book.model');
+
 const { postABook,getAllBooks, getSingleBook, updateBook, deleteBook } = require('./book.controller');
 const verifyAdminToken = require('../../middleware/verifyAdminToken');
 const router = express.Router();
